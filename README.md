@@ -2,6 +2,7 @@
 
 This project was developed just to make requests to any API and put the data from the API into the appropriate Data Model.<p>
 Only "URLSession" was used when make request to API.
+I used [Flickr API](https://www.flickr.com/services/api/).
 
 <img src="https://github.com/onurduyar/FlickrAPIdemo/blob/main/demo.png" alt="drawing" width="300"/>
 
