@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FlickrApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rQB-JE-hkx">
+                                <rect key="frame" x="46" y="319.66666666666669" width="301" height="213.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="301" id="Bt0-HD-GHs"/>
+                                    <constraint firstAttribute="height" constant="213" id="Zlr-4f-FY1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qbg-eU-HnA">
+                                <rect key="frame" x="175.66666666666666" y="571.66666666666663" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Qbg-eU-HnA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6uB-y3-Eqr"/>
+                            <constraint firstItem="rQB-JE-hkx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7gp-R9-OpW"/>
+                            <constraint firstItem="rQB-JE-hkx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SYj-2R-GOi"/>
+                            <constraint firstItem="Qbg-eU-HnA" firstAttribute="top" secondItem="rQB-JE-hkx" secondAttribute="bottom" constant="39.329999999999998" id="Y3Y-vg-gng"/>
+                            <constraint firstItem="rQB-JE-hkx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jaW-MA-y2o"/>
+                            <constraint firstItem="rQB-JE-hkx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jbR-tC-UZD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="rQB-JE-hkx" id="Lro-Gf-HWz"/>
+                        <outlet property="label" destination="Qbg-eU-HnA" id="Zac-5V-03I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
