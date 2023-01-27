@@ -7,7 +7,7 @@
 
 import Foundation
 
-/*  url = "https://www.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=760e7e7264c358a8a2673616578555ef&extras=date_taken,owner_name,url_z&format=json&nojsoncallback=1"
+/*  url = "https://www.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=*********&extras=date_taken,owner_name,url_z&format=json&nojsoncallback=1"
 */
 
 enum Endpoint: String {
